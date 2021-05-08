@@ -1,3 +1,8 @@
+// -------------------
+// This file is shared both by the server and client.
+// Do not include any browser or node specific APIs
+// -------------------
+
 class Cookie {
     constructor(val = ''){
         var chunks = val.split(';').map(entry => entry.trim().split('='));
