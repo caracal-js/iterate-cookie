@@ -19,4 +19,7 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
   - `cookie.expires` **[String]** Expires
   - `cookie.max_age` **[String]** Max-Age
 
+## Todo:
+- Add parsing for `cookie` request header
+
 
