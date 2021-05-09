@@ -1,4 +1,5 @@
 # Iterate-Cookie
+`Set-Cookie` & `document.cookie` setter parser.
 
 ## Example:
 
