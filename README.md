@@ -1,5 +1,5 @@
 # Iterate-Cookie
-`Set-Cookie` & `document.cookie` setter parser.
+Tokenizer for `Set-Cookie` and `document.cookie` setter.
 
 ## Example:
 
@@ -21,6 +21,6 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
   - `cookie.max_age` **[String]** Max-Age
 
 ## Todo:
-- Add parsing for `cookie` request header
+- Add tokenization for `cookie` request header
 
 
