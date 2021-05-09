@@ -11,4 +11,4 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
 ```
 
 ## Parameters:
-  - `cookie.domain` **[String][52]?** Domain
+  - `cookie.domain` **[String][51]?** Domain
