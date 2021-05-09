@@ -11,4 +11,4 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
 ```
 
 ## Parameters:
-  - `cookie.domain` **[String]** Modifies domain of cookie
+  - `cookie.domain` **[String]** Domain
