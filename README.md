@@ -21,7 +21,7 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
   - `path` **[String]** Path
   - `expires` **[String]** Expires
   - `max_age` **[String]** Max-Age
-  - 
+
 ## Prototype:
   - `serialize` **[Function]** Generate the AST into a string
 
