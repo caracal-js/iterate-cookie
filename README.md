@@ -12,15 +12,15 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
 ```
 
 ## Parameters:
-  - `cookie.name` **[String]** Cookie name
-  - `cookie.value` **[String]** Cookie value
-  - `cookie.domain` **[String]** Domain
-  - `cookie.secure` **[Boolean]** Secure
-  - `cookie.http_only` **[Boolean]** HttpOnly
-  - `cookie.same_site` **[Boolean]** SameSite
-  - `cookie.path` **[String]** Path
-  - `cookie.expires` **[String]** Expires
-  - `cookie.max_age` **[String]** Max-Age
+  - `name` **[String]** Cookie name
+  - `value` **[String]** Cookie value
+  - `domain` **[String]** Domain
+  - `secure` **[Boolean]** Secure
+  - `http_only` **[Boolean]** HttpOnly
+  - `same_site` **[Boolean]** SameSite
+  - `path` **[String]** Path
+  - `expires` **[String]** Expires
+  - `max_age` **[String]** Max-Age
   - 
 ## Prototype:
   - `serialize` **[Function]** Generate the AST into a string
