@@ -12,3 +12,11 @@ console.log(cookie.serialize()); // Outputs foo=kitty;
 
 ## Parameters:
   - `cookie.domain` **[String]** Domain
+  - `cookie.secure` **[Boolean]** Secure
+  - `cookie.http_only` **[Boolean]** HttpOnly
+  - `cookie.same_site` **[Boolean]** SameSite
+  - `cookie.path` **[String]** Path
+  - `cookie.expires` **[String]** Expires
+  - `cookie.max_age` **[String]** Max-Age
+
+
