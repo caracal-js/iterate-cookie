@@ -3,7 +3,7 @@
 // Do not include any browser or node specific APIs
 // -------------------
 
-class Cookie {
+class SetCookie {
     constructor(val = ''){
         var chunks = val.split(';').map(entry => entry.trim().split('='));
         this.name = chunks[0][0];
@@ -59,6 +59,16 @@ class Cookie {
         return ret;
     };
 };
-
-if (typeof window != 'undefined') window.Cookie = Cookie;
-else module.exports = Cookie;
+class GetCookie {
+    constructor(val){
+        val.split(';').map(entry => entry.trim().split('=')).forEach(([name = null, value = '']) => {
+            if (!name) return;
+            this[name] = value;
+        });
+    };
+    serialize(){
+        var ret = '';
+        for (let i in this) ret += `${i}=${this[i]}; `;
+        return ret;
+    };
+};
