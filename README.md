@@ -1,4 +1,5 @@
-# Iterate-Cookie
+# Iterate-Cookie - Documentation awaiting update! Do not use for reference until further notice.
+
 Tokenizer for `Set-Cookie` and `document.cookie` setter.
 
 ## Example:
