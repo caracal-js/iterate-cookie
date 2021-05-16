@@ -72,3 +72,8 @@ class GetCookie {
         return ret;
     };
 };
+
+Object.assign(typeof window != 'undefined' ? window : module.exports, {
+    SetCookie,
+    GetCookie,
+});
